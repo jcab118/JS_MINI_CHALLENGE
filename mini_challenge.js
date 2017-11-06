@@ -4,7 +4,7 @@ console.log(num1 + num2);
 
 
 var foodNames = ["wings", "pizza", "salad", "wraps",["lasagna", "tacos", "spagetti"]];
-console.log(wings, pizza);
+console.log("wings", "pizza");
 
 
 if (num1 < 100){
@@ -16,7 +16,7 @@ else {
 
 
 var Name = prompt("Please enter your name here");
-alert("Hey name");
+alert("Hey" + " " + Name);
 
 
 function chooseDoor(doorNumber){
@@ -27,3 +27,5 @@ function chooseDoor(doorNumber){
 			}else if (doorNumber ==3){
 				console.log("You won a brand new car")
 			}
+		}
+		chooseDoor(1);
